@@ -1,5 +1,4 @@
 $(function(){
-
     //recupero lista utenti con ajax
     $.ajax({
         url: 'https://randomuser.me/api/?results=10',
@@ -51,7 +50,6 @@ $(function(){
                 nome.html(nomecompleto)
             });
             
-            
             image.appendTo(divimage);
             divimage.appendTo(row1);
             row1.appendTo(card);
@@ -73,18 +71,5 @@ $(function(){
         });
     })
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
 });
