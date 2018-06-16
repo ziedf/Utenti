@@ -1,0 +1,27 @@
+.utente{
+    border: 1px solid black;
+
+}
+.utente:hover{
+    -webkit-box-shadow: 7px 4px 15px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 4px 15px 1px rgba(0,0,0,1);
+    box-shadow: 7px 4px 15px 1px rgba(0,0,0,1);
+}
+i{
+    padding-top: 24px;
+}
+i:hover{
+    color: rgb(207, 7, 191);
+}
+h4{
+    margin-top: 24px;
+}
+.image{
+    filter: grayscale(80%);
+    transition: transform.2s;;
+}
+.image:hover{
+    border: 1px solid rgb(99, 65, 248);
+    transform: scale(1.5);
+    filter: grayscale(0%);
+}
